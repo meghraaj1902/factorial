@@ -7,7 +7,7 @@ def factorial(n):
        factorial = factorial * i
     return factorial
 def sum_factorial():
-    for i in range(10):
+    for i in range(9):
         final_list.append(factorial(i))
     result=sum(final_list)
     print("Final SUM is ...... = {}".format(result))
