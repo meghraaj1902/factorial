@@ -4,7 +4,6 @@ on:
     paths: 
     - 'factorial.py' 
     - 'lint.py' 
-
 jobs: 
   build: 
     runs-on: ubuntu-latest 
